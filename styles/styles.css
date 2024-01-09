@@ -160,22 +160,50 @@ main {
   line-height: 32px;
   margin: 22px 0 48px 0;
 }
-.subscribe-form input{
-    background: #fff;
-    border: none;
-    outline: none;
-    padding: 10px 0 10px 20px;
-    width: 300px;
-    border-radius: 25px 0 0 25px;
-    font-size: 16px;
+.subscribe-form input {
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 0 10px 20px;
+  width: 300px;
+  border-radius: 25px 0 0 25px;
+  font-size: 16px;
 }
-.subscribe-form button{
-    background: #f00;
+.subscribe-form button {
+  background: #f00;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  /* width: 300px; */
+  border-radius: 0 25px 25px 0;
+  font-size: 16px;
+}
+
+/* footer area css */
+.footer-area{
+    background-color: #000000;
+    margin: 100px 0;
+}
+.footer-content{
+    padding: 120px 140px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #fff;
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    /* width: 300px; */
-    border-radius: 0 25px 25px 0;
-    font-size: 16px;
+}
+.footer-icons{
+    text-align: center;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.hr-line{
+    margin: 50px 0;
+    border: 1px solid #ffffff26;
 }
